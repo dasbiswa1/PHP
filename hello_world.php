@@ -1,3 +1,5 @@
 <?php
-echo "<h1>Child File</h1>"
+
+echo "Hello world<br/>"; echo "Age is 21<br/>"; echo "City BBSR <br/>"
+
 ?>
