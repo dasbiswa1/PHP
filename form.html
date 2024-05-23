@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form handling with PHP</title>
+</head>
+<body>
+    <form action="form.php" method = "post">
+        <input type = "text" name="name" placeholder="enter user name">
+        <br/>
+        <br/>
+        <input type = "text" name = "email" placeholder="enter email">
+        <br/>
+        <br/>
+        <input type = "password" name = "password" placeholder="enter user password">
+        <br/>
+        <br/>
+        <input type="checkbox" name="skills[]" value="php"><spam>PHP</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="java"><spam>JAVA</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="cpp"><spam>CPP</spam>
+        <br/>
+        <input type="checkbox" name="skills[]" value="js"><spam>JS</spam>
+        <br/>
+        <br/>
+        <input type="radio" name="gender" value="male"><spam>male</spam>
+        <br/>
+        <input type="radio" name="gender" value="female"><spam>female</spam>
+        <br/>
+        <br/>
+        <select name="city">
+            <option>Select your city</option>
+            <option value="bbsr">BBSR</option>
+            <option value="ctc">CTC</option>
+            <option value="kdpr">KDPR</option>
+            <option value="jpur">JPUR</option>
+        </select>
+        <br/>
+        <br/>
+        <textarea name="about" placeholder="about your self"></textarea>
+        <br/>
+        <br/>
+        <button>Sign up</button>
+        </form>
+    </form>
+</body>
+</html>
